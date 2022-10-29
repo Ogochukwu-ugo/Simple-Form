@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <main>
+        <form action="/">
+            <input type="text" id="name" placeholder="Name"  required><br>
+            <input type="email" id="email" placeholder="Email"  required><br>
+            <input type="tel" id="phone" placeholder="Phone Number"  required><br>
+            <div class="gender">
+                <h4>Gender:</h4>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label> <br>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label> <br>
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">Other</label>
+            </div>
+               
+            <div class="hobby" >
+                <h4>Hobbies:</h4>
+                <input type="checkbox" name="hobbies" id="dance" value="dancing" checked>
+                <label for="dance">Dancing</label><br>
+                <input type="checkbox" name="hobbies" id="swim" value="swimming">
+                <label for="swim">Swimming</label><br>
+                <input type="checkbox" name="hobbies" id="code" value="coding">
+                <label for="code">Coding</label><br>
+                <input type="checkbox" name="hobbies" id="cook" value="cooking">
+                <label for="cook">Cooking</label><br>
+                <input type="checkbox" name="hobbies" id="read" value="reading">
+                <label for="read">Reading</label><br>
+                <input type="checkbox" name="hobbies" id="sew" value="sewing">
+                <label for="sew">Sewing</label><br>
+                <input type="checkbox" name="hobbies" id="drive value="driving">
+                <label for="drive">Driving</label><br>
+            </div>
+            <input type="submit" value="Submit" id="btn">
+        </form>
+    </main>
+</body>
+</html>
